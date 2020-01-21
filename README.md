@@ -37,3 +37,14 @@ never never 是null 和undefined的子类型 表示不会出现的值
 变量名称可以以字母 下划线 数字 $命名
 # 9 变量类型判断
 类型判断可以用来手动指定一个值得类型
+多维数组
+var multi:number[][] = [[1,2,3],[23,24,25]]
+console.log([0,0]) //1
+console.log([1,1]) //24
+# 10 TypeScript 联合类型
+var val:string|number
+val = 12
+console.log("数字为 "+ val)
+val = "Runoob"
+console.log("字符串为 " + val)
+
