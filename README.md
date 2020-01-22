@@ -47,4 +47,6 @@ val = 12
 console.log("数字为 "+ val)
 val = "Runoob"
 console.log("字符串为 " + val)
+# 鸭子类型
+鸭子类型（英语：duck typing）是动态类型的一种风格，是多态(polymorphism)的一种形式。
 
